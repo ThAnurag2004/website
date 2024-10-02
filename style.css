@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(2, 2, 54);
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 92px;
+    background-color: rgb(15, 15, 94);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(102, 102, 166);
+    font-size: 1.6rem;
+}
+.left{
+    font-size: 3rem;
+    margin-right: 500px;
+}
+.right{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 300px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.contact button{
+   background-color: white ;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   margin-top: 80px;
+}
+.contact button a i{
+    width: auto;
+    height: auto;
+    font-size: 60px;
+    color: rgb(2, 2, 54);
+}
+.contact button:hover{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition-duration: 0.05s;
+}
+.contact button a{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.leftsection{
+    width: 40px;
+    font-size: 3rem;
+    margin: 30px 0;
+}
+.rightsection{
+    width: 100%;
+    height: 100%;
+    
+}
+.rightsection img{
+    width: 500px;
+    height: 500px;
+}
+.purple{
+    font-size: 82px;
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+    font-size: 62px;
+}
+hr{
+    border: 0;
+    background-color: rgb(97, 97, 165);
+    height: 1.2px ;
+    margin: 40px 84px;
+}
+main hr{
+    border: 0;
+    background-color: rgb(97, 97, 165);
+    height: 1.2px ;
+    margin: 80px 84px;
+}
+.secondsection h1{
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+.one{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+.bo{
+    font-style: bold;
+}
+.two{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+}
+.three{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+}
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.thirdsection h1{
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+.fourthsection h1{
+    font-size: 3rem;
+    color: blueviolet;
+}
+.fourthsection ul li{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 30px;
+    list-style: disc;
+}
+footer{
+    background: rgb(0, 0, 0);
+    height: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 22px;
+}
+.about{
+    margin: auto;
+    width: 10%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: black;
+}
+.about h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.9%;
+}
+.footer-first{
+    width: auto;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 10px 10px;
+}
+.footer-first p{
+    font-size: 23px;
+}
+.footer-first a i{
+    margin-left: 15px ;
+    font-size: 40px;
+    margin-top: 120px;
+    color: white;
+}
+.footer-second{
+    width: 20%;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.footer-second ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+.footer-third{
+    width: 20%;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.footer-fourth{
+    width: 20%;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.disclaimer{
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+}
+.disclaimer p{
+    color: white;
+    text-align: center;
+    margin-top: 1.5%;
+}
