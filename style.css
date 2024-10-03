@@ -11,7 +11,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 92px;
     background-color: rgb(15, 15, 94);
 }
 nav ul{
@@ -31,6 +30,7 @@ nav ul li a:hover{
     font-size: 1.6rem;
 }
 .left{
+    width: max-content;
     font-size: 3rem;
     margin-right: 500px;
 }
@@ -173,6 +173,7 @@ footer{
     display: flex;
     justify-content: space-around;
     margin: 23px 22px;
+    width: ;
 }
 .about{
     margin: auto;
@@ -213,6 +214,11 @@ footer{
 .footer-second ul{
     list-style-type: none;
     font-size: 20px;
+    margin-top: 20px;
+}
+.footer-second ul li a{
+    text-decoration: none;
+    color: white;
 }
 .footer-third{
     width: 20%;
@@ -220,11 +226,30 @@ footer{
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
 }
+.footer-third ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer-third ul li a{
+    text-decoration: none;
+    color: white;
+}
 .footer-fourth{
     width: 20%;
     height: 300px;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
+}
+.footer-fourth ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer-fourth ul li a{
+    font-size: auto;
+    text-decoration: none;
+    color: white;
 }
 .disclaimer{
     height: 100px;
